@@ -27,7 +27,7 @@
   },
   "assets": {
     "host01": [
-      {"file": "step1.js", "target": "/root" } 
+      {"file": "step1.js", "target": "/opt/" } 
     ]
   },
   "environment": {
