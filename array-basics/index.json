@@ -25,6 +25,11 @@
       "text": "finish.md"
     }
   },
+  "assets": {
+    "host01": [
+      {"file": "step1.js", "target": "/root" } 
+    ]
+  },
   "environment": {
     "uilayout": "terminal"
   },
