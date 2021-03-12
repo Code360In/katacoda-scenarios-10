@@ -1,12 +1,12 @@
 On to The second semicolon rule. A semicolon is inserted if a `return` keyword is last in line:
 
-```function mystery(x) {
+`function mystery(x) {
   if (x < 0) return
   console.log(Math.sqrt(x))
 }
 
 mystery(4)
-mystery(-4)```{{execute}}
+mystery(-4)`{{execute}}
 
 That makes sense. We don't want to return the value returned by `console.log`. But watch this: 
 
