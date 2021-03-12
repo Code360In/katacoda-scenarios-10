@@ -1,21 +1,29 @@
-Finally, let us practice declaring constants. A constant is a variable that never changes. You use the `const` keyword instead of `let`.
+On to The second semicolon rule. A semicolon is inserted if a `return` keyword is last in line:
 
-Go ahead, declare a constant `THE_ANSWER` and initialize it with whatever you think the answer to life, the universe, and everything is.
+```function mystery(x) {
+  if (x < 0) return
+  console.log(Math.sqrt(x))
+}
 
-Check your work:
+mystery(4)
+mystery(-4)```{{execute}}
 
-`steps.test4(THE_ANSWER)`{{execute}}
+That makes sense. We don't want to return the value returned by `console.log`. But watch this: 
 
-Now try changing the value of the constant:
+```function enigma() {
+  return
+    1 * 2 + 2 * 3 + 3 * 4 + 4 * 5 + 5 * 6 + 6 * 7
+}
 
-```THE_ANSWER = 'To be or not to be...'```{{execute}}
+enigma()```{{execute}}
 
-If you declared the constant correctly, that assignment statement throws an exception. 
+Time for another angry face with horns: 👿. A semicolon is inserted, and the function returns the value `undefined`. The code that follows is never executed.
 
-*NOTE:* In JavaScript, it is common to use `const` for any value that doesn't change, not just for cosmic constants like `PI` or `THE_ANSWER`:
+This behavior holds for all "jumpy" keywords (`break`, `continue`, `return`, `throw`, and `yield`) that jump somewhere else instead of to the next line.
 
-```const greeting = 'Hello, World!'
-console.log(greeting)```{{execute}}
+Be wary of lines ending in jumpy keywords.
 
-Use `const` when you can, and `let` when you must. And stay away from the evil `var`!
+>>Question: If I faithfully put semicolons everywhere, I don't need to worry about jumpy keywords <<
+( ) Correct
+(*) Incorrect
 
