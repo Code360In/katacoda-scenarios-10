@@ -1,0 +1,13 @@
+{
+  "title": "2. Control Structures",
+  "description": "In this chapter, you will learn about the control structures of the JavaScript language: branches, loops, and catching exceptions. The chapter also gives an overview of JavaScript statements and describes the process of automatic semicolon insertion.",
+  "icon": "fa-katacoda",
+  "courses": 
+  [
+    {
+      "course_id": "expressions",
+      "title": "Expressions, Statements, Semicolons",
+      "description": "In this scenario, you will study the difference between expressions and statements, as well as the rules for semicolon insertion."
+    },
+  ]
+}
