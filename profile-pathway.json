@@ -1,0 +1,12 @@
+{
+    "courses": [
+      {
+        "title": "Values and Variables",
+        "id": "values_and_variables"
+      },
+      {
+        "title": "Control Structures",
+        "id": "control_structures"
+      }
+    ]
+}
