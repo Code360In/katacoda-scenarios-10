@@ -11,4 +11,4 @@ Node prints `undefined`. But for
 
 Node prints 11. It is not important to know why.
 
-Ok, why? Because that's the value ascribed to the last loop iteration. The value of the last statement `number--;` is 11, the value of `number` before it is decremented to 10. As you can see, this is not particularly useful. 
+Ok, why? Because that's the value ascribed to the last statement in the last loop iteration. Node considers the value of the statement `number--;` to be 11, the value of `number` before it is decremented to 10. As you can see, this is not particularly useful. 
