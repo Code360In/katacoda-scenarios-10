@@ -1,5 +1,5 @@
 {
-  "title": "2. Control Structures",
+  "title": "Control Structures",
   "description": "In this chapter, you will learn about the control structures of the JavaScript language: branches, loops, and catching exceptions. The chapter also gives an overview of JavaScript statements and describes the process of automatic semicolon insertion.",
   "icon": "fa-katacoda",
   "courses": 
