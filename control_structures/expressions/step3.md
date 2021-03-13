@@ -12,12 +12,14 @@ mystery(-4)
 
 That makes sense. We don't want to return the value returned by `console.log`. But watch this: 
 
-```function enigma() {
+```
+function enigma() {
   return
     1 * 2 + 2 * 3 + 3 * 4 + 4 * 5 + 5 * 6 + 6 * 7
 }
 
-enigma()```{{execute}}
+enigma()
+```{{execute}}
 
 Time for another angry face with horns: 👿. A semicolon is inserted, and the function returns the value `undefined`. The code that follows is never executed.
 
