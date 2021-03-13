@@ -1,0 +1,13 @@
+{
+  "title": "Objects",
+  "description": "TODO Description",
+  "icon": "fa-katacoda",
+  "courses": 
+  [
+    {
+      "course_id": "getters-setters",
+      "title": "Getters and Setters",
+      "description": "TODO Description"
+    }
+  ]
+}
