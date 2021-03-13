@@ -18,7 +18,7 @@ Let's look at those tokens.
 * The first token of line 3 is the literal `+`. That can be a continuation of `let result = 6 * 7`. *Not offending, no semicolon.*
 * The first token of line 4 is the `return` keyword. That cannot not be a continuation of `let a = 6 * 7 + 5 * 6 + 4 * 5 + 3 * 4 + 2 * 3 + 1 * 2` *Offending, therefore semicolon.*
 
-The offending token rule fails if a line starts with a token that could have been a part of the previous line. 
+Very occasionally, the offending token rule fails. Here is a contrived example:
 
 ```
 function square(a) {

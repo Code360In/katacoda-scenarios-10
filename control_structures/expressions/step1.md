@@ -8,7 +8,7 @@ The Node interpreter computes and displays the values of any expressions that yo
 
 `6 * 7`{{execute}}
 
-A *statement* (assignment, branch, loop, and so on) is executed for its *effect*. Statements don't have values. Click on this statement:
+A *statement* (declaration, assignment, branch, loop, and so on) is executed for its *effect*. Statements don't have values. Click on this statement:
 
 `let number = 6 * 7;`{{execute}}
 
@@ -16,15 +16,17 @@ What happens when you run the statement? Of course, `number` is set to the value
 
 This is an oddity of Node. REPLs (read-evaluate-print loops) of other programming languages don't print anything when you enter a statement. Unless, of course, the statement happens to be a print statement.
 
-Let's try that:
+Click to execute this statement:
 
 `console.log(6 * 7);`{{execute}}
 
-You observe the *side effect* of the statement, followed by a printout of the value that Node ascribes to it. For statements, you can ignore those values. To see why, try this statement:
+You observe the *side effect* of the statement, followed by a printout of the value that Node ascribes to it. 
+
+Generally, you can safely ignore what Node displays for statements. To see why, click on:
 
 `while (number > 10) number--;`{{execute}}
 
-What did Node print? Was it useful??? Generally, you can safely ignore what Node displays for statements.
+What did Node print? Was it useful??? 
 
 In many languages it is simple to distinguish expressions and statements. Statements always end in semicolons. In JavaScript, it's not as simple, as you will see in the next step. 
 
