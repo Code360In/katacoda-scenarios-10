@@ -1,6 +1,6 @@
 {
-  "title": "Variables",
-  "description": "Learn to work with JavaScript variables",
+  "title": "Getters and Setters",
+  "description": "TODO Description",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -29,8 +29,9 @@
     },
     "assets": {
       "host01": [
-        {"file": "steps.js", "target": "/root/" },
-        {"file": "Person.js", "target": "/root/" } 
+        {"file": "Person1.js", "target": "/root/" } 
+        {"file": "Person2.js", "target": "/root/" } 
+        {"file": "Account.js", "target": "/root/" } 
       ]
     }    
   },
