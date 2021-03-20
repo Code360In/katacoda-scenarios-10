@@ -29,8 +29,8 @@
     },
     "assets": {
       "host01": [
-        {"file": "Person1.js", "target": "/root/" } 
-        {"file": "Person2.js", "target": "/root/" } 
+        {"file": "Person1.js", "target": "/root/" }, 
+        {"file": "Person2.js", "target": "/root/" }, 
         {"file": "Account.js", "target": "/root/" } 
       ]
     }    
