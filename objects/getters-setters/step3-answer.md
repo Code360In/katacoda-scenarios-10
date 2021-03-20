@@ -1,3 +1,15 @@
-Simply use the `const` keyword like this:
+Here is the `get` method:
 
-`const THE_ANSWER = 42`{{execute}}
+```
+get balance() { return this._balance }
+```{{copy}}
+
+For the `set` method, we need to do some error checking:
+
+```
+set balance(amount) {
+  if (amount >= 0) {
+    this._balance = amount
+  }
+}
+```{{copy}}

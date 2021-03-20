@@ -1,11 +1,12 @@
-Let's get started by firing up Node.js. Click on the black block below to execute the command.
+In the editor to the right, click on Person1.js and look at the code. Pay attention to the `fullName` method. Note the `get` prefix.
 
-`node --use-strict`{{execute}}
+Look at the `console.log` call and note that the `fullName` method is invoked *without parentheses*. It's a method that looks like a property.
 
-Load the helper code. 
+To run the code, click on the black block below:
 
-`.load Person.js`{{execute}}
+`node Person1.js`{{execute}}
 
-Now it's your turn. 
-
-TODO: Just an experiment to see how to work with a file pane
+Now do a couple of experiments. 
+1. Try assigning to the property:
+```fred.fullName = 'Astaire, Fred'```{{copy}}
+2. Make `fullName` a regular method by removing `get`. What else do you need to change?

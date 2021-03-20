@@ -1,11 +1,2 @@
-Here is one possible answer:
-
-`let a = 42`{{execute}}
-
-Any answer is ok provided you initialize `a` with a number. 
-
-Then change `a` to any string, such as
-
-`a = 'forty-two'`{{execute}}
-
-You don't use `let` again because the variable has already been defined.
+1. You cannot assign to a `get` property. You’ll see in the next step how to make a `set` property.
+2. If you remove the `get`, you need to add `()` to the method call.

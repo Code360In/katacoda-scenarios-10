@@ -1,8 +1,9 @@
-If you don't initialize a variable, it is set to the special value `undefined`. Go ahead and define a variable `enigma` without initializing it.
+In the editor to the right, click on Person2.js and look at the code. Pay attention to the `fullName` method with the `set` prefix.
 
-Run this code to check your work.
+To run the code, click on the black block below:
 
-`steps.test3(enigma)`{{execute}}
+`node Person2.js`{{execute}}
 
-This is not something you commonly do, but it can happen if the variable is set to different values in an `if` statement.
-
+1. Which method is called in line 12? Which method is called in line 13?
+2. How does JavaScript know when to call the `get` method and when to call the `set` method?
+3. Make the `set` method into a regular method by removing `set`. What else do you need to change?
