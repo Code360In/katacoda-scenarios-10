@@ -8,5 +8,8 @@ To run the code, click on the black block below:
 
 Now do a couple of experiments. 
 1. Try assigning to the property:
-```fred.fullName = 'Astaire, Fred'```{{copy}}
+```
+fred.fullName = 'Astaire, Fred'
+console.log(fred)
+```{{copy}}
 2. Make `fullName` a regular method by removing `get`. What else do you need to change?

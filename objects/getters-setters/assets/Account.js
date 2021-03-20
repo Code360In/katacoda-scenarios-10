@@ -1,13 +1,13 @@
 class Account {
-  constructor() { this._balance = 0 }
+  #balance = 0 // Private field
   deposit(amount) {
     if (amount >= 0) {
-      this._balance += amount
+      this.#balance += amount
     }
   }
   withdraw(amount) {
-    if (amount >= 0 && this._balance >= amount) {
-      this._balance -= amount
+    if (amount >= 0 && this.#balance >= amount) {
+      this.#balance -= amount
     }
   }
 }

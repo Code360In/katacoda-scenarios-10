@@ -11,4 +11,4 @@ class Person {
 let fred = new Person('Flintstone', 'Fred')
 console.log(fred.fullName)
 fred.fullName = 'Astaire, Fred'
-console.log(fred.fullName)
+console.log(fred)
