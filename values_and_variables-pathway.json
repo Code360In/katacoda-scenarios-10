@@ -10,6 +10,11 @@
       "description": "Learn to work with JavaScript variables"
     },
     {
+      "course_id": "numbers",
+      "title": "Numbers",
+      "description": "Find out what is special about numbers in JavaScript"
+    },
+    {
       "title": "Array Basics",
       "pathway_id": "array-basics",
       "course_id": "Learn to work with array literals"
