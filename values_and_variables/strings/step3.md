@@ -4,8 +4,7 @@ Click the following command to start a web server:
 
 ```
 cd server
-npm init
-npm start dev
+npm update && npm run dev
 ```{{execute}}
 
 Click on the following link to show the page: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/

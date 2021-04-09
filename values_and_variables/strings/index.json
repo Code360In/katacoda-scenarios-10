@@ -31,6 +31,7 @@
       "host01": [
         {"file": "steps.js", "target": "/root/" }, 
         {"file": "package.json", "target": "/root/server" }, 
+        {"file": "server.js", "target": "/root/server" }, 
         {"file": "index.html", "target": "/root/server/public" }
       ]
     }    
