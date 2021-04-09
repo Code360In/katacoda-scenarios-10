@@ -37,7 +37,7 @@
     }    
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal-editor"
   },
   "backend": {
     "imageid": "nodejs:12"
