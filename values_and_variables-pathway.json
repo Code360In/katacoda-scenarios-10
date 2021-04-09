@@ -15,9 +15,14 @@
       "description": "Find out what is special about numbers in JavaScript"
     },
     {
+      "course_id": "strings",
+      "title": "String and Template Literals",
+      "description": "Learn about string and template literals in JavaScript"
+    },
+    {
       "title": "Array Basics",
-      "pathway_id": "array-basics",
-      "course_id": "Learn to work with array literals"
+      "course_id": "array-basics",
+      "description": "Learn to work with array literals"
     }
   ]
 }
