@@ -5,4 +5,3 @@ In the editor to the right, click on Account.js. Add a `get` and `set` method so
 To run the code, click on the black block below:
 
 `node Account.js`{{execute}}
-

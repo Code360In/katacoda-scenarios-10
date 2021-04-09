@@ -16,26 +16,15 @@ const congrats = () =>
   congratulations[Math.floor(Math.random() * congratulations.length)]
 
 exports.test1 = a => {
-  if (a === Number.MAX_SAFE_INTEGER + 2) {
-    return 'That is the smallest. What is the second-smallest?'
-  }
-  if (a !== Number.MAX_SAFE_INTEGER + 4) {
+  if (a !== `J. R. "Bob" Dobbs`) {
     return 'Try again!'
   }
   return congrats()
 }
 
 exports.test2 = a => {
-  if (!Number.isNaN(a)) {
-    return `parseFloat yields ${a}, not NaN`
-  }
-  console.log(NaN)
-  return congrats()
-}
-
-exports.test3 = a => {
-  if (a !== 10n**100n) {
-    return `Are you sure that's a 1 followed by one hundred 0s?`
+  if (a !== `"Bob"'s pipe`) {
+    return `Are you sure you have double quotes around Bob and a single quote after that?`
   }
   return congrats()
 }

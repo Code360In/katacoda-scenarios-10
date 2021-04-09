@@ -22,8 +22,10 @@ No roundoff. There will never be a roundoff as long as you stay in the "safe" zo
 
 Check out how large these numbers are:
 
-`Number.MIN_SAFE_INTEGER`{{execute}}
-`Number.MAX_SAFE_INTEGER`{{execute}}
+```
+Number.MIN_SAFE_INTEGER
+Number.MAX_SAFE_INTEGER
+```{{execute}}
 
 That is a 54-bit range, quite a bit larger than your typical 32-bit integers.
 

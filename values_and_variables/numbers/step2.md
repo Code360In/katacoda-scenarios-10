@@ -15,7 +15,7 @@ There are special values `Infinity` and `NaN`:
 Math.sqrt(-1)
 ```{{execute}}
 
-`parseInt` and `parseFloat` can also return `NaN` when you call them with a bad input. Try it out: Define a string variable `badInput`.
+`parseInt` and `parseFloat` can also return `NaN` when you call them with a bad input. Try it out: Define a variable `badInput` that holds a string for which `parseFloat` yields `NaN`.
 
 Then this code to check your work.
 
