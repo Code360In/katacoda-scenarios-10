@@ -38,7 +38,7 @@
     }    
   },
   "files": [
-    "server/public/index.js"
+    "/root/server/public/index.js"
   ],  
   "environment": {
     "uilayout": "editor-terminal"
