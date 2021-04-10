@@ -1,12 +1,13 @@
 The correct answer is:
 
 ```
-`<${tag}>${content}</${tag}>
+`<${tag}>Buy ${animal} food</${tag}>`
 ```{{execute}}
 
-Try it out with a different value:
+Try it out with different values:
 
 ```
 tag = 'div'
-`<${tag}>${content}</${tag}>
+animal = 'iguana'
+`<${tag}>Buy ${animal} food</${tag}>`
 ```{{execute}}
