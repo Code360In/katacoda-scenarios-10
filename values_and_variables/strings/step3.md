@@ -15,6 +15,8 @@ let body = html`<div style=${styleMap(styles)}>Hello, ${destination!}</div>`
 render(body, document.body)
 ```
 
+`server/public/index.js`{{open}}
+
 
 
 
