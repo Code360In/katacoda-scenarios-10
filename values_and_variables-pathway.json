@@ -20,9 +20,15 @@
       "description": "Learn about string and template literals in JavaScript"
     },
     {
-      "title": "Array Basics",
+      "course_id": "object-basics",
+      "title": "Object Basics",
+      "description": "Learn to work with object literals"
+    },
+    {
       "course_id": "array-basics",
+      "title": "Array Basics",
       "description": "Learn to work with array literals"
     }
+    
   ]
 }
