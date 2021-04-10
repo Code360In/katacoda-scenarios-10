@@ -6,11 +6,11 @@ Literal names don't have to be identifiers. They can be arbitrary strings. If th
 
 This is not common, but it does happen. 
 
-Now here is a challenge: Change Harry's favorite beer to Lager. Then check your work. (Hint: Review the last part of the preceding page.)
+Now here is a challenge: Change Harry's favorite beer to Lager. Then check your work. (Hint: Review the last part of the preceding step.)
 
 `steps.test4(harry)`{{execute}}
 
-Finally, you can dynamically compute the property name. Enclose the expression in brackets:
+You can dynamically compute the property name. Enclose the expression in brackets:
 
 ```let item = 'beer'
 { name: 'Harry Smith', ['favorite ' + item]: 'Pilsener' }

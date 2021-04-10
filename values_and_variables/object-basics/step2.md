@@ -9,8 +9,6 @@ let age = 39
 There is a convenient shortcut:
 
 ```
-let name = 'Sally'
-let age = 39
 { name, age }
 ```{{execute}}
 
