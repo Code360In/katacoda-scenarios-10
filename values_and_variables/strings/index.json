@@ -33,9 +33,13 @@
         {"file": "package.json", "target": "/root/server" }, 
         {"file": "server.js", "target": "/root/server" }, 
         {"file": "index.html", "target": "/root/server/public" }
+        {"file": "index.js", "target": "/root/server/public" }
       ]
     }    
   },
+  "files": [
+    "server/public/index.js"
+  ],  
   "environment": {
     "uilayout": "editor-terminal"
   },
