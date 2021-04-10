@@ -2,7 +2,7 @@ Let's get started by firing up Node.js. Click on the black blocks below to execu
 
 `node --use-strict`{{execute}}
 
-`const steps = require('./steps.js')`{{execute}}
+`const steps = require('../steps.js')`{{execute}}
 
 String literals can be delimited with single quotes or double quotes, `'like this'` or `"like that"`. Declare a variable `name` and set it to the following string: J. R. "Bob" Dobbs
 

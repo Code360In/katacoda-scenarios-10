@@ -1,5 +1,6 @@
-Of course, you could write `1000.000n` with one hundred zeroes, but this is much simpler:
+In the browser dev console (Ctrl/⌘ Alt J), look at the value of `body` that holds the output of the `html` tagged template literal. 
 
-`const googol = 10n ** 100n`{{execute}}
+It is *not* a string but a data structure that the `render` function uses.
 
-Note that both operands must be big integers.
+You can find more the details in the lit-html documentation, but that's not why I am showing you this. The take away is this: Tmplate tags can carry out complex parsing and produce arbitrary content. 
+

@@ -6,26 +6,27 @@ One example is the `String.raw` tag. It lets you use backslashes without escapin
 String.raw`C:\Windows\System`
 ```{{execute}}
 
-Whatever. More usefully, libraries can provide tags for parsing strings in various ways. One example is [lit-html](https://lit-html.polymer-project.org). Its `html` tag lets you construct HTML on the fly with a convenient syntax:
+More enticingly, libraries provide tags for parsing strings in various ways. One example is [lit-html](https://lit-html.polymer-project.org). Its `html` tag lets you construct HTML on the fly with a convenient syntax:
 
 ```
 let destination = 'Paris'
 let styles = { color: 'blue' }
-let body = html`<div style=${styleMap(styles)}>Hello, ${destination!}</div>`
+let body = html`<div style=${styleMap(styles)}>Hello, ${destination}!</div>`
+console.log({body})
 render(body, document.body)
 ```
 
-`server/public/index.js`{{open}}
+To see this in action, 
 
+1. Open this file: `index.js`{{open}}
+2. Click the following command to start a web server:
 
+    ```
+    .exit
+    npx http-server
+    ```{{execute}}
+ 
+3. Click on the following link to show the page in a new browser window: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
+4. In `index.js`, change `blue` to `red` and reload the browser window
 
-
-Click the following command to start a web server:
-
-```
-cd server
-npm install && npm run dev
-```{{execute}}
-
-Click on the following link to show the page: https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com/
-
+What does the `html` tag produce? 

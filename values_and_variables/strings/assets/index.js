@@ -3,5 +3,5 @@ import {styleMap} from 'https://unpkg.com/lit-html/directives/style-map.js?modul
 let destination = 'Paris'
 let styles = { color: 'blue' }
 let body = html`<div style=${styleMap(styles)}>Hello, ${destination}!</div>`
-console.log(body)
+console.log({body})
 render(body, document.body);
