@@ -1,6 +1,6 @@
 {
-  "title": "String and Template Literals",
-  "description": "Learn about string and template literals in JavaScript",
+  "title": "Destructuring",
+  "description": "Understand the destructuring syntax for arrays and objects",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
@@ -29,14 +29,12 @@
     },
     "assets": {
       "host01": [
-        {"file": "steps.js", "target": "/" }, 
-        {"file": "index.html", "target": "/root/" },
-        {"file": "index.js", "target": "/root/" }
+        {"file": "steps.js", "target": "/root/" } 
       ]
     }    
   },
   "environment": {
-    "uilayout": "editor-terminal"
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "nodejs:12"

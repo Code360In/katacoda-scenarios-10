@@ -1,6 +1,6 @@
 {
   "title": "Values and Variables",
-  "description": "In this chapter, you will learn about the data types that you can manipulate in a JavaScript program: numbers, strings, and other primitive types, as well as objects and arrays. You will see how to store these values in variables, how to convert values from one type to another, and how to combine values with operators.",
+  "description": "In this chapter, you will learn about the data types that you can manipulate in a JavaScript program: numbers, strings, and other primitive types, as well as objects and arrays. You will see how to store values in variables, how to convert values from one type to another, and how to combine values with operators.",
   "icon": "fa-katacoda",
   "courses": 
   [
@@ -28,7 +28,11 @@
       "course_id": "array-basics",
       "title": "Array Basics",
       "description": "Learn to work with array literals"
-    }
-    
+    },
+    {
+      "course_id": "destructuring",
+      "title": "Destructuring",
+      "description": "Understand the destructuring syntax for arrays and objects"
+    }    
   ]
 }
