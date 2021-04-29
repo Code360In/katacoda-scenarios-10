@@ -38,7 +38,7 @@
 "environment": {
     "showide": true,
     "showdashboard": true,
-    "dashboards": [ {"name": "Port 80", "port": 80} ],
+    "dashboards": [ {"name": "Port 8080", "port": 8080} ],
     "uilayout": "terminal-iframe"
 },
   "backend": {
