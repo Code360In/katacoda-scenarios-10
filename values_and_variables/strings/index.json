@@ -38,7 +38,7 @@
 "environment": {
     "showide": true,
     "showdashboard": true,
-    "dashboards": [ {"name": "Port 8080", "port": 8080} ],
+    "dashboards": [ {"name": "Browser", "port": 8080} ],
     "uilayout": "terminal-iframe"
 },
   "backend": {

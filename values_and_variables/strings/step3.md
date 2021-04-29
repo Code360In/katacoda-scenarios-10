@@ -18,13 +18,13 @@ render(body, document.body)
 
 To see this in action, 
 
-1. Open this file: `index.js`{{open}}
-2. Click the following commands to exit `node` and start a web server:
+1. Click the following commands to exit `node` and start a web server:
 
     `.exit`{{execute}}
     `npx http-server`{{execute}}
- 
-3. Click on the following link to show the page in a new browser window: https://[[HOST_SUBDOMAIN]]-8080-[[KATACODA_HOST]].environments.katacoda.com/
-4. In `index.js`, change `blue` to `red` and reload the browser window
+2. Click on the IDE tab and open the file `index.js`
+3. Click on the Browser tab to see the result
+4. Click again on the IDE tab. In `index.js`, change `blue` to `red`
+5. Click on the Browser tab and the Reload icon
 
 What does the `html` tag produce? 
