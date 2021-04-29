@@ -35,9 +35,12 @@
       ]
     }    
   },
-  "environment": {
-    "uilayout": "editor-terminal"
-  },
+"environment": {
+    "showide": true,
+    "showdashboard": true,
+    "dashboards": [ {"name": "Port 80", "port": 80} ],
+    "uilayout": "terminal-iframe"
+},
   "backend": {
     "imageid": "nodejs:12"
   }
