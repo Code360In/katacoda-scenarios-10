@@ -18,11 +18,14 @@ render(body, document.body)
 
 To see this in action, 
 
-1. Click the following commands to exit `node` and start a web server:
-
-    ```.exit```{{execute}}
-    
-    ```npx http-server -c-1```{{execute}}
+1. Click the following command to exit `node` 
+    ```
+    .exit
+    ```{{execute}}
+2. Start a web server:
+    ```
+    npx http-server -c-1
+    ```{{execute}}
     
 2. Click on the IDE tab and open the file `index.js`
 3. Click on the Browser tab to see the result
