@@ -1,4 +1,4 @@
-Let's get started by firing up Node.js. Click on the black blocks below to execute the two commands.
+Let's get started by firing up Node.js. Click on the black blocks below to execute the two commands in the terminal.
 
 `node --use-strict`{{execute}}
 

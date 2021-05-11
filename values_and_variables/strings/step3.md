@@ -20,11 +20,12 @@ To see this in action,
 
 1. Click the following commands to exit `node` and start a web server:
 
-    `.exit`{{execute}}
-    `npx http-server`{{execute}}
+    ```.exit```{{execute}}
+    ```npx http-server -c-1```{{execute}}
 2. Click on the IDE tab and open the file `index.js`
 3. Click on the Browser tab to see the result
 4. Click again on the IDE tab. In `index.js`, change `blue` to `red`
-5. Click on the Browser tab and the Reload icon
+5. Click on the Browser tab 
+6. Click on the Reload icon 🗘 to the *right* of the Browser tab
 
 What does the `html` tag produce? 
