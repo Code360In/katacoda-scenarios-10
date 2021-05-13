@@ -8,6 +8,12 @@
       "course_id": "expressions",
       "title": "Expressions, Statements, Semicolons",
       "description": "In this scenario, you will study the difference between expressions and statements, as well as the rules for semicolon insertion."
+    },
+    {
+      "course_id": "boolean",
+      "title": "Comparisons, Boolean Operators, Boolishness",
+      "description": "In this scenario, you will learn how to work effectively with Boolean values (true/false) in JavaScript, and how to avoid the foolishness of unrestrained Boolean conversions."
     }
+    
   ]
 }
