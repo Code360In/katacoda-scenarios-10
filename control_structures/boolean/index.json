@@ -37,6 +37,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "nodejs:14"
+    "imageid": "nodejs:12"
   }
 }
