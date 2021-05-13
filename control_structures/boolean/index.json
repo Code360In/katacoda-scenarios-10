@@ -12,7 +12,7 @@
       },
       {
         "title": "Step 2",
-        "text": "step2.md"
+        "text": "step2.md",
         "answer": "step2-answer.md"
       },
       {
@@ -37,6 +37,6 @@
     "uilayout": "terminal"
   },
   "backend": {
-    "imageid": "nodejs:12"
+    "imageid": "nodejs:14"
   }
 }
