@@ -17,8 +17,7 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md",
-        "answer": "step3-answer.md"
+        "text": "step3.md"
       }
     ],
     "intro": {
@@ -29,12 +28,17 @@
     },
     "assets": {
       "host01": [
-        {"file": "steps.js", "target": "/root/" } 
+        {"file": "steps.js", "target": "/" }, 
+        {"file": "index.html", "target": "/root/" },
+        {"file": "index.js", "target": "/root/" }
       ]
     }    
   },
   "environment": {
-    "uilayout": "terminal"
+    "showide": true,
+    "showdashboard": true,
+    "dashboards": [ {"name": "Browser", "port": 8080} ],
+    "uilayout": "terminal-iframe"
   },
   "backend": {
     "imageid": "nodejs:12"
