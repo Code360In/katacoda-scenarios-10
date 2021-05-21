@@ -25,16 +25,3 @@ To see this in action,
 
 
 
-
-
-
-
-TODO: How to test this? regex? 
-
-
-
-
->>Question: If I faithfully put semicolons everywhere, I don't need to worry about jumpy keywords <<
-( ) Correct
-(*) Incorrect
-
