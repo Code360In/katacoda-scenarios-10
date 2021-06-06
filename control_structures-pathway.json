@@ -16,8 +16,8 @@
     },
     {
       "course_id": "loops",
-      "title": "For Loops, Catching Exceptions",
-      "description": "This scenario shows the control structures that are different in JavaScript, compared to Java or C++. You will learn about the two forms of for loops and the catch-everything clause."
+      "title": "For Loops",
+      "description": "This scenario shows the two forms of the "for" loop that are different from the standard "for" loop in Java or C++."
     }
     
   ]

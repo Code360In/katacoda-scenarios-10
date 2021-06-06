@@ -7,9 +7,12 @@ To run the code, click on the black block below:
 `node Person1.js`{{execute}}
 
 Now do a couple of experiments. 
-1. Try assigning to the property:
+1. In `Person1.js`, try assigning to the property:
 ```
 fred.fullName = 'Astaire, Fred'
 console.log(fred)
 ```{{copy}}
-2. Make `fullName` a regular method by removing `get`. What else do you need to change?
+2. Re-run `node Person1.js`{{execute}}
+3. What happens? Why?
+4. Take out those two lines again. Make `fullName` a regular method by removing `get`. What else do you need to change?
+5. To test your work, run `node Person1.js`{{execute}}

@@ -6,22 +6,10 @@ When you call such a function, you may want to substitute a different value in c
 
 evaluates to `x`. But if `x` is `undefined` or `null`, the expression's value is `defaultValue`. 
 
-As an example, the call `str.match(regex)` returns an array whose initial element is the first substring matching the regular expression, or `null` if there was no match.
+As an example, the call `str.match(regex)` returns an array whose initial element is the first substring matching the regular expression, or `null` if there was no match. 
 
-To see this in action, 
+To see this in action in a web page, 
 
-1. Click the following command to exit `node` 
-    ```
-    .exit
-    ```{{execute}}
-2. Start a web server:
-    ```
-    npx http-server -c-1
-    ```{{execute}}
-    
-3. Click on the Browser tab to see the result
-4. Enter your age in the text field. Also, enter a value that isn't a number. Observe how the text below changes.
-5. Click on the IDE tab and open the file `index.js`. See how the `??` operator is used.
-
-
-
+1. Click on the Browser tab to see the web page
+2. Enter your age in the text field. Also, enter a value that isn't a number. Observe how the text below changes.
+3. Click on the IDE tab and open the file `index.js`. See how the `??` operator is used.
