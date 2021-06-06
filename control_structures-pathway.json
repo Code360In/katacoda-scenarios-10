@@ -13,6 +13,11 @@
       "course_id": "boolean",
       "title": "Comparisons, Boolean Operators, Boolishness",
       "description": "In this scenario, you will learn how to work effectively with Boolean values (true/false) in JavaScript, and how to avoid the foolishness of unrestrained Boolean conversions."
+    },
+    {
+      "course_id": "loops",
+      "title": "For Loops, Catching Exceptions",
+      "description": "This scenario shows the control structures that are different in JavaScript, compared to Java or C++. You will learn about the two forms of for loops and the catch-everything clause."
     }
     
   ]
