@@ -1,6 +1,6 @@
 {
-  "title": "Booleans",
-  "description": "Learn to work with Boolean values",
+  "title": "For Loops",
+  "description": "Learn to work with the \"for-of\" and \"for-in\" loops",
   "difficulty": "Beginner",
   "time": "10 minutes",
   "details": {
