@@ -1,6 +1,6 @@
 {
-  "title": "Function Basics",
-  "description": "Learn to write functions",
+  "title": "Arrow functions",
+  "description": "Learn to use the arrow function syntax",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
@@ -17,7 +17,8 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {

@@ -1,7 +1,24 @@
-Simply provide the function name as an argument:
+Here are two solutions.
 
-`numbers.map(square)`{{execute}}
+You can simply add a `map` to the pipeline:
 
-The result is an array, with all elements of `numbers` squared.
+```
+  const listHTML = enclose('ul',
+    countries.filter(i => i.trim() !== '')
+      .map(sanitize)
+      .map(i => enclose('li', i))
+      .join(''))
+```
 
-Functions are values. Just like any other values, they can be passed to other functions. 
+Note that you don't need an arrow expression to pass a function that has a name.
+
+Alternatively, you can call `sanitize` in the call to `enclose`:
+
+```
+  const listHTML = enclose('ul',
+    countries.filter(i => i.trim() !== '')
+      .map(i => enclose('li', sanitize(i)))
+      .join(''))
+```
+
+

@@ -1,10 +1,10 @@
 {
-  "title": "Booleans",
-  "description": "Learn to work with Boolean values",
+  "title": "Arguments",
+  "description": "Learn about variable arguments, default arguments, and named arguments",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
-    "steps":[ 
+    "steps": [
       {
         "title": "Step 1",
         "text": "step1.md",
@@ -17,29 +17,25 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {
-      "text": "intro.md",
-      "courseData": "background.sh"
+      "text": "intro.md"
     },
     "finish": {
       "text": "finish.md"
     },
     "assets": {
       "host01": [
-        {"file": "steps.js", "target": "/" }, 
-        {"file": "index.html", "target": "/root/" },
-        {"file": "index.js", "target": "/root/" }
+        {"file": "average.js", "target": "/root/" },
+        {"file": "average2.js", "target": "/root/" } 
       ]
     }    
   },
   "environment": {
-    "showide": true,
-    "showdashboard": true,
-    "dashboards": [ {"name": "Browser", "port": 8080} ],
-    "uilayout": "terminal-iframe"
+    "uilayout": "editor-terminal"
   },
   "backend": {
     "imageid": "nodejs:12"

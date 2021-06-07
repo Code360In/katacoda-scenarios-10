@@ -13,6 +13,16 @@
       "course_id": "arrow-functions",
       "title": "Arrow Functions",
       "description": "This scenario introduces the arrow function syntax and explores \"functional thinking\"."
+    },
+    {
+      "course_id": "closures",
+      "title": "Closures",
+      "description": "In this scenario, you will explore the important concept of a closure: a function that captures variables from the enclosing scope."
+    },
+    {
+      "course_id": "arguments",
+      "title": "Arguments",
+      "description": "This scenario shows you what happens when you pass more or fewer arguments to a function, and how you can write functions that accept a variable number of arguments, default arguments, or named arguments."
     }    
   ]
 }

@@ -39,3 +39,7 @@ No loops! We just say what we want:
 That is the power of functional thinking. Your code shows the "what", not the "how". 
 
 Check out the example in the browser tab! Then see in the editor how it was produced. The document in `index.html` is empty. `index.js` builds the list dynamically.
+
+But, as you can see, list items produced by an evil opponent can interfere with the generated HTML. Fix this problem by calling the `sanitize` function on each item. Of course without a loop.
+
+Refresh the browser so see your change.

@@ -1,10 +1,10 @@
 {
-  "title": "Booleans",
-  "description": "Learn to work with Boolean values",
+  "title": "Closures",
+  "description": "Learn how functions capture variables",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
-    "steps":[ 
+    "steps": [
       {
         "title": "Step 1",
         "text": "step1.md",
@@ -17,7 +17,8 @@
       },
       {
         "title": "Step 3",
-        "text": "step3.md"
+        "text": "step3.md",
+        "answer": "step3-answer.md"
       }
     ],
     "intro": {
@@ -29,9 +30,9 @@
     },
     "assets": {
       "host01": [
-        {"file": "steps.js", "target": "/" }, 
         {"file": "index.html", "target": "/root/" },
-        {"file": "index.js", "target": "/root/" }
+        {"file": "index.js", "target": "/root/" },
+        {"file": "counter.js", "target": "/root/" }        
       ]
     }    
   },

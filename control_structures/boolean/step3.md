@@ -13,3 +13,14 @@ To see this in action in a web page,
 1. Click on the Browser tab to see the web page
 2. Enter your age in the text field. Also, enter a value that isn't a number. Observe how the text below changes.
 3. Click on the IDE tab and open the file `index.js`. See how the `??` operator is used.
+
+When you read the `index.js` file, ignore the construct 
+
+```
+window.addEventListener('load', () => {
+  ...
+})
+```
+
+This is necessary to execute the code only after the HTML of the window has loaded. Simply focus on the code inside.
+

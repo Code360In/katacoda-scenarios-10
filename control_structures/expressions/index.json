@@ -1,8 +1,8 @@
 {
-  "title": "Variables",
-  "description": "Learn to work with JavaScript variables",
+  "title": "Expressions, Statements, Semicolons",
+  "description": "Learn to work with expressions, statements, and semicolons",
   "difficulty": "Beginner",
-  "time": "10 minutes",
+  "time": "15 minutes",
   "details": {
     "steps":[ 
       {
