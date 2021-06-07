@@ -9,6 +9,10 @@
         "id": "control_structures"
       },
       {
+        "title": "Functions",
+        "id": "functions"
+      },      
+      {
         "title": "Objects",
         "id": "objects"
       }

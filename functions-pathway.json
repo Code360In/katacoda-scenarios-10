@@ -1,0 +1,18 @@
+{
+  "title": "Functions",
+  "description": "In this chapter, you will learn how to write functions in JavaScript. JavaScript is a “functional” programming language. Functions are “first-class” values, just like numbers or strings. Functions can consume and produce other functions. Mastering a functional programming style is essential for working with modern JavaScript.",
+  "icon": "fa-katacoda",
+  "courses": 
+  [
+    {
+      "course_id": "function-basics",
+      "title": "Function Basics",
+      "description": "In this scenario, you will learn the basic facts about implementing functions in JavaScript."
+    },
+    {
+      "course_id": "arrow-functions",
+      "title": "Arrow Functions",
+      "description": "This scenario introduces the arrow function syntax and explores \"functional thinking\"."
+    }    
+  ]
+}
