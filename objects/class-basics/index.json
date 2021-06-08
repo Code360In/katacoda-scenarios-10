@@ -1,6 +1,6 @@
 {
-  "title": "Getters and Setters",
-  "description": "This scenario shows you how to implement getters and setters. They look like property access but are implemented like methods.",
+  "title": "Class basics",
+  "description": "In this scenario, you learn how to implement classes, constructors, and methods in JavaScript.",
   "difficulty": "Beginner",
   "time": "15 minutes",
   "details": {
@@ -29,8 +29,7 @@
     },
     "assets": {
       "host01": [
-        {"file": "Person1.js", "target": "/root/" }, 
-        {"file": "Person2.js", "target": "/root/" }, 
+        {"file": "Employee.js", "target": "/root/" }, 
         {"file": "Account.js", "target": "/root/" } 
       ]
     }    

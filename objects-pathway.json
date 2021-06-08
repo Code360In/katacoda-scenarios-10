@@ -1,13 +1,28 @@
 {
-  "title": "Objects",
-  "description": "TODO Description",
+  "title": "Objects and Classes",
+  "description": "JavaScript has objects, but they don’t look like the objects you have seen in Java or C++. In particular, JavaScript objects don’t seem to belong to any class other than Object. In the olden days, one had to implement classes and inheritance by hand, but, as you will see in this chapter, modern JavaScript makes object-oriented programming easy.",
   "icon": "fa-katacoda",
   "courses": 
   [
     {
+      "course_id": "class-basics",
+      "title": "Class Basics",
+      "description": "In this scenario, you learn how to implement classes, constructors, and methods in JavaScript."
+    },
+    {
       "course_id": "getters-setters",
       "title": "Getters and Setters",
-      "description": "TODO Description"
+      "description": "This scenario shows you how to implement getters and setters. They look like property access but are implemented like methods."
+    },
+    {
+      "course_id": "class-misc",
+      "title": "Static properties, inheritance",
+      "description": "This scenario shows how to implement more OO features in JavaScript."
+    },
+    {
+      "course_id": "confusing-this",
+      "title": "Put this in its place",
+      "description": "This scenario tells you why \"this\" can be confusing in JavaScript, and how you can easily avoid this confusion."
     }
   ]
 }
